@@ -15,6 +15,7 @@ body {
 
 header {
     border: 2px solid blue;
+    margin: 2px;
 }
 
 img {
@@ -101,10 +102,11 @@ footer {
     border: 1px solid black;
 }
 
-#carouselMainPage {
-    border-radius: 5px;
-    border: 10px solid black;
+.carouselBorder {
+    border-radius: 10px;
 }
 
+#carouselID {
 
+}
 
