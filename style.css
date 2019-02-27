@@ -8,10 +8,9 @@
 
 
 body {
-    margin: 0 auto;
     border: 1px solid black;
-    max-width: 1200px;
-    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 header {
@@ -22,23 +21,50 @@ img {
     border: 1px solid black;
 }
 
-.imgFlow {
+/* .imgFlow {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+} */
+
+.logos {
+    width: 80%;
+    height: 80%;
 }
 
-h2 {
-    border: 5px solid black;
+.SovietFont {
     font-family: 'Red October', sans-serif;
-    position: absolute;
-    font-size: 5em;
-    
+}
+
+.navFont {
+    font-size: 1.5vw;
+}
+
+.baba {
+    position: relative;
+
+    font-size: 4vw;
+    color: rgb(248, 245, 245);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+h2 {
+    border: 1px solid black;
+}
+
+h4 {
+    border: 1px solid black;
 }
 
 nav {
     border: 1px solid black;
+    background-image: linear-gradient(to right, #fff2ac  0%, #ffe359  50%, #fddc35 100% );
 }
 
 main {
@@ -65,7 +91,7 @@ footer {
     border: 1px solid black;
 }
 
-.borderr {
+.bord {
     border: 1px solid black;
 }
 
