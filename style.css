@@ -41,21 +41,27 @@ img {
     font-size: 1.5vw;
 }
 
-.baba {
-    position: relative;
-
-    font-size: 4vw;
-    color: rgb(248, 245, 245);
-    border: 2px solid yellow;
-    border-radius: 10px;
-    background-image: url();
+.bg-header {
+    background-image: url("img/bg_cartoon_random_foods.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: sticky;
+}
+
+.baba {
+    position: relative;
+    font-size: 5vw;
+    background: -webkit-linear-gradient(rgb(255, 233, 106), rgb(255, 116, 52));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 1px #df531c;
+    border: 2px solid yellow;
+    border-radius: 10px;
 }
 
 
 h2 {
-    border: 1px solid black;
+
 }
 
 h4 {
@@ -95,7 +101,10 @@ footer {
     border: 1px solid black;
 }
 
-
+#carouselMainPage {
+    border-radius: 5px;
+    border: 10px solid black;
+}
 
 
 
