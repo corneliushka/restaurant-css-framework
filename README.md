@@ -16,9 +16,11 @@ Dans la colline.
 
 ## 2.1 Acces au projet  
 
+Link : https://corneliushka.github.io/restaurant-css-framework/index.html
+
 ## 2.2 Maquette 
 
-**v.1** (date)
+**v.1** (date) 
 
 **v.2** (date)
 
@@ -28,11 +30,12 @@ Dans la colline.
 
 **Semaine du lundi 25 fevrier:**  
 
-- Lundi 25/02 :    
-- Mardi 26/02 :  
-- Mercredi 27/02 :   
-- Jeudi 28/02 :   
-- Vendredi 29/02 :   
+- Lundi 25/02 : decouverte bootstrap et initialisation page index.html   
+- Mardi 26/02 : initialisation Projet et premiere Issues + to-do lists
+- Mercredi 27/02 :  
+- Jeudi 28/02 :  /
+- Vendredi 29/02 : finalisation du projet avec les pages precedentes.    
 
+## 3 Obstacles et difficultes 
 
 
