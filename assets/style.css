@@ -8,19 +8,16 @@
 
 
 body {
-    border: 1px solid black;
     margin: 0 auto;
     width: 100%;
 }
 
 header {
-    border: 2px solid blue;
     margin: 2px;
 }
 
 
 img {
-    border: 1px solid black;
 }
 
 /* .imgFlow {
@@ -51,7 +48,7 @@ img {
 }
 
 .baba {
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: 100;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 4px;
@@ -59,7 +56,6 @@ img {
     -webkit-text-stroke-color: rgb(255, 227, 68);
     border-radius: 10px;
 }
-
 
 h3 {
     top: 50px;
@@ -69,7 +65,6 @@ h3 {
 }
 
 h4 {
-    border: 1px solid black;
 }
 
 .pJumbotron {
@@ -78,7 +73,6 @@ h4 {
 }
 
 nav {
-    border: 1px solid black;
     background-image: linear-gradient(to right, #fff2ac  0%, #ffe359  50%, #fddc35 100% );
 }
 
@@ -92,12 +86,15 @@ nav {
     background-size: 150px auto;
 }
 
-.bgFixe {
-    background-attachment: fixed;
+.bgGradient {
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 section {
-    border: 1px solid black;
 }
 
 .asideComm {
@@ -120,8 +117,33 @@ footer {
     border: 1px solid black;
 }
 
+figcaption {
+    background-image: linear-gradient(to right, #2f2e29  0%, #0a0909 60%,  #000000 100% );
+    color: rgb(255, 221, 31);
+    max-width: 400px;
+    font-size: 1vw;
+    font-weight: 900;
+    display: block;
+    float: left;
+    position: absolute;
+    border-radius: 1px;
+    padding: 3px;
+    top: 5px;
+    left: 20px;
+  }
 
-/* #carouselID {
 
+/* visited link */
+a:visited {
+    color: rgb(41, 32, 17);
 }
- */
+
+/* mouse over link */
+a:hover {
+    color: rgb(211, 24, 24);
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
