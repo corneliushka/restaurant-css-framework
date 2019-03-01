@@ -44,23 +44,22 @@ img {
 }
 
 .bg-header {
-    background-image: url("assets/img/bg_cartoon_random_foods.jpg");
+    background-image: url("img/bg_cartoon_random_foods.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: sticky;
 }
 
 .baba {
-    font-weight: 400;
-    color: rgb(255, 36, 36);
-    -webkit-text-stroke: 3px!important;
-    text-shadow: 40px 4px 5px rgb(221, 67, 20);
+    font-size: 8vw;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 4px;
+    text-shadow: 5px 5px 6px rgb(221, 67, 20);
     -webkit-text-stroke-color: rgb(255, 227, 68);
+    border-radius: 10px;
 }
 
-h2 {
-
-}
 
 h3 {
     top: 50px;
@@ -88,7 +87,7 @@ nav {
 } */
 
 .bgWheat {
-    background-image: url(assets/img/wheat.svg);
+    background-image: url(img/wheat.svg);
     background-repeat: repeat;
     background-size: 150px auto;
 }
