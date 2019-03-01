@@ -40,6 +40,13 @@ header {
     font-size: 1.5vw;
 }
 
+.prompt {
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px;
+    text-shadow: 1px 1px 1px rgb(188, 210, 224);
+    -webkit-text-stroke-color: rgb(255, 227, 68);
+    border-radius: 10px;}
+
 .bgHeader {
     background-image: url("../assets/img/bg_random_foods.jpg");
     background-repeat: no-repeat;

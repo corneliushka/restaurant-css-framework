@@ -77,6 +77,7 @@
                     -->  
                 
             <main class="col-sm-12 col-xl-12 container">
+                <h6 class="SovietFont text-center prompt" id=name></h4>
                 <section class=" col-8 mx-auto text-center d-block" >
                     <div id="carouselMainPage" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -161,6 +162,15 @@
                 // Attach a map to the DOM Element, with the defined settings
                 var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
+
+                var person = prompt("Entrez votre nom", "Ivanka Trump");
+
+                if (person != null) {
+                document.getElementById("name").innerHTML =
+                "Bonjour " + person + "! Comment allez-vous aujourd'hui ?";
+                var usernameElement = document.getElementById("name");
+                usernameElement.innerText = username;
+}   
                 }
             </script>
         </body>
