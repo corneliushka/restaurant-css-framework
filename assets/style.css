@@ -13,12 +13,12 @@ body {
 }
 
 header {
-    margin: 2px;
+    margin: 5px;
 }
 
 
-img {
-}
+/* img {
+} */
 
 /* .imgFlow {
     background-repeat: no-repeat;
@@ -40,8 +40,8 @@ img {
     font-size: 1.5vw;
 }
 
-.bg-header {
-    background-image: url("img/bg_cartoon_random_foods.jpg");
+.bgHeader {
+    background-image: url("../assets/img/bg_random_foods.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: sticky;
@@ -64,7 +64,12 @@ h3 {
     text-align: bottom;
 }
 
-h4 {
+/* h4 {
+} */
+
+.bgWheat {
+    background-image: url("../assets/img/wheat.svg");
+    background-size: 500px;
 }
 
 .pJumbotron {
@@ -74,28 +79,29 @@ h4 {
 
 nav {
     background-image: linear-gradient(to right, #fff2ac  0%, #ffe359  50%, #fddc35 100% );
+    padding: 5px;
 }
 
 /* main {
 
 } */
 
-.bgWheat {
-    background-image: url(img/wheat.svg);
-    background-repeat: repeat;
-    background-size: 150px auto;
-}
 
-.bgGradient {
-    background: #16222A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* .bgGradient {
+    background-image: linear-gradient(to right, #fff2ac  0%, #ffe359  50%, #fddc35 100% );
 
 
-}
+} */
 
-section {
-}
+/* section {
+
+} */
+
+#map-canvas{
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+  }
 
 .asideComm {
     border: 1px solid black;
