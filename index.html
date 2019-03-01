@@ -4,7 +4,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <link rel="stylesheet" type="text/css" href="assets/style.css">
+            <link rel="stylesheet" type="text/css" href="./assets/style.css">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -26,7 +26,7 @@
                     </div>
                     <div class="btn">
                         <span class="SovietFont navFont">
-                            <a href="menu.html">
+                            <a href="webpages/menu.html">
                                 <i class="fas fa-utensils"></i> Menu & tarifs
                             </a>
                         </span>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="btn">
                         <span class="SovietFont navFont"> 
-                            <a href="gallerie.html">
+                            <a href="webpages/gallerie.html">
                                 <i class="far fa-eye"></i> Gallerie
                             </a>
                         </span>
@@ -42,14 +42,14 @@
                     </div>
                     <div class="btn">
                         <span class="SovietFont navFont"> 
-                            <a href="blog.html">
+                            <a href="webpages/blog.html">
                                 <i class="fas fa-align-justify"></i> Blog
                             </a>
                         </span>
                     </div>
                     <div class="btn">
                         <span class="SovietFont navFont">
-                            <a href="contact.html">
+                            <a href="webpages/contact.html">
                                 <i class="fab fa-wpforms"></i> Contact
                             </a>
                         </span> 
@@ -162,16 +162,19 @@
                 // Attach a map to the DOM Element, with the defined settings
                 var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
+                
+}
+                /* ASK ONLY ONCE window.onload = function(){
+                    var person = prompt("Entrez votre nom", "Ivanka Trump");
 
-                var person = prompt("Entrez votre nom", "Ivanka Trump");
-
-                if (person != null) {
-                document.getElementById("name").innerHTML =
-                "Bonjour " + person + "! Comment allez-vous aujourd'hui ?";
-                var usernameElement = document.getElementById("name");
-                usernameElement.innerText = username;
-}   
+                    if (person != null) {
+                    document.getElementById("name").innerHTML =
+                    "Bonjour " + person + "! Comment allez-vous aujourd'hui ?";
+                    var usernameElement = document.getElementById("name");
+                    usernameElement.innerText = username;
+                    }   
                 }
+             */
             </script>
         </body>
 </html>
